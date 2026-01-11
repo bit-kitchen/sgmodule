@@ -30,4 +30,4 @@ url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview
 url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-param.js,argument=url,pattern=^https://i.gkd.li/i\?
 
 # base64 encoded path segment
-url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-path.js,pattern=^https://.+.mjt.lu/lnk/
+url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-path-base64.js,pattern=^https://.+.mjt.lu/lnk/
