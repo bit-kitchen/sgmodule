@@ -25,6 +25,7 @@ url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview
 # search param: url
 url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-param.js,argument=url,pattern=^https://go.hoteldig.com/\?
 url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-param.js,argument=url,pattern=^https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html\?
+url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-param.js,argument=url,pattern=^https://statics.teams.cdn.office.net/evergreen-assets/safelinks/2/atp-safelinks.html\?
 url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-param.js,argument=url,pattern=^https://.+.safelinks.protection.outlook.com/\?
 url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-param.js,argument=url,pattern=^https://t.me/iv\?
 url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-param.js,argument=url,pattern=^https://i.gkd.li/i\?
