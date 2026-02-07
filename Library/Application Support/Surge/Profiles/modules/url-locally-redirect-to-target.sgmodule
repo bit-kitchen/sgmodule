@@ -3,9 +3,12 @@
 #!category=URL
 
 [MITM]
-hostname = %INSERT% www.youtube.com, duckduckgo.com, go.hoteldig.com, www.google.com, www.google.com.hk, statics.teams.cdn.office.net, *.safelinks.protection.outlook.com, t.me, triplink.trip.com, *.mjt.lu, link.csdn.net, i.gkd.li
+hostname = %INSERT% developers.weixin.qq.com, www.youtube.com, duckduckgo.com, go.hoteldig.com, www.google.com, www.google.com.hk, statics.teams.cdn.office.net, *.safelinks.protection.outlook.com, t.me, triplink.trip.com, *.mjt.lu, link.csdn.net, i.gkd.li
 
 [Script]
+# search param: href
+url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-param.js,argument=href,pattern=^https://developers.weixin.qq.com/community/middlepage/href\?
+
 # search param: q
 url-locally-redirect-to-target.js = debug=false,type=http-request,engine=webview,script-path=modules/url-locally-redirect-to-target-via-param.js,argument=q,pattern=^https://www.youtube.com/redirect\?
 
