@@ -1,0 +1,18 @@
+#!name=Harness Enhance
+#!desc=Enhance harness.io experience.
+#!category=Harness
+
+[General]
+# https://manual.nssurge.com/others/host-list.html
+# https://manual.nssurge.com/others/misc-options.html#always-real-ip
+always-real-ip = %INSERT% -*.harness.io, -proxy-free.ff.harness.io
+
+[MITM]
+hostname = %INSERT% *.harness.io, proxy-free.ff.harness.io
+
+[Header Rewrite]
+http-response ^https://.+.harness.io/auth/assets/ header-del Cache-Control
+
+[URL Rewrite]
+^https://.+.harness.io/api/csp/csp-report _ reject
+^https://proxy-free.ff.harness.io/metrics/ _ reject
