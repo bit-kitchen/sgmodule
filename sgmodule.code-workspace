@@ -6,7 +6,7 @@
 		},
 		{
 			"name": "~/Library/Application Support/Stash",
-			"path": "../../../Library/Application Support/Stash"
+			"path": "../../Library/Application Support/Stash"
 		},
 		{
 			"name": "sgmodule",
@@ -14,15 +14,15 @@
 		},
 		{
 			"name": "~/Library/Application Support/Surge",
-			"path": "../../../Library/Application Support/Surge"
+			"path": "../../Library/Application Support/Surge"
 		},
 		{
 			"name": "~/Library/Application Support/com.nssurge.surge-mac",
-			"path": "../../../Library/Application Support/com.nssurge.surge-mac"
+			"path": "../../Library/Application Support/com.nssurge.surge-mac"
 		},
 		{
 			"name": "~/Library/Logs/Surge",
-			"path": "../../../Library/Logs/Surge"
+			"path": "../../Library/Logs/Surge"
 		},
 		{
 			"name": "/tmp",
